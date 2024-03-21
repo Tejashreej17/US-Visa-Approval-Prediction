@@ -1,15 +1,34 @@
 # US-Visa-Approval-Prediction
-## Git Commands for GitHub
 
+## Live matarials docs
+
+[link](https://docs.google.com/document/d/1UFiHnyKRqgx8Lodsvdzu58LbVjdWHNf-uab2WmhE0A4/edit?usp=sharing)
+
+
+## Git commands
+
+```bash
 git add .
 
 git commit -m "Updated"
 
-git clone https://github.com/Tejashreej17/US-Visa-Approval-Prediction/tree/main/us_visa
-
 git push origin main
+```
 
+## How to run?
 
-## How to set up the environment
+```bash
+conda create -n visa python=3.8 -y
+```
 
-conda create -n visa python=3.9 -y
+```bash
+conda activate visa
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python app.py
+```
