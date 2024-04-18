@@ -47,5 +47,5 @@ python app.py
 ### Export the  environment variable
 ```bash
 
-
 export MONGODB_URL="mongodb+srv://<username>:<password>...."
+```
