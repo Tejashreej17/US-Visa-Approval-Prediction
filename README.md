@@ -97,8 +97,6 @@ export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 	
 	#optinal
 
-	sudo apt-get update -y
-
 	sudo apt-get upgrade
 	
 	#required
